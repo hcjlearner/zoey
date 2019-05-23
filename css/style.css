@@ -1,1 +1,107 @@
-body{ background-color: #f0f0f0; }
+
+.aHeader {
+    background-color: #ffb000;
+    padding-left: 40px;
+    max-height: 100px;
+}
+
+.aHeader:before {
+    display: inline-block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.aMainer {
+    margin-top: 25px;
+}
+
+.bContent {
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    width: 37%;
+}
+
+.bProfile {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.h1-tit {
+    display: inline-block;
+    margin: -5px 0 0 0;
+    vertical-align: top;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bInfo {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    width: 55%;
+}
+
+.bInfo ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li-info {
+    display: inline-block;
+    margin: 6px 20px;
+    width: 40%;
+}
+
+li.li-info {}
+
+.li-info:before {
+    display: inline-block;
+    content: "";
+    background-color: #0089ff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.c-head {
+    background-color: #807c00;
+    max-height: 30px;
+    margin-left: 20px;
+}
+
+.c-desc {
+    margin: 30px auto;
+    line-height: 25px;
+}
+
+.bContent:nth-child(even) {
+    width: 53.5%;
+}
+
+.bContent:nth-child(3) {
+    margin-top: -30px;
+}
+
+.bContent:nth-child(5) {
+    margin-top: -220px;
+}
+
+#codeconSkills {
+    font-size: 16px;
+    color: black;
+    height: auto;
+    line-height: 20px;
+}
+
+#codeconSkills {
+    font-size: 16px;
+}
+
+.aFooter {
+    background-color: black;
+    padding-top: 60px;
+}
