@@ -1,4 +1,4 @@
-body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正黑體", Arial;} 
+body{background-color: white;margin:25px auto; width:1100px;font:16px "å¾®è»Ÿæ­£é»‘é«”", Arial;} 
 
 .h1-tit span {
     display: block;
@@ -7,9 +7,11 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
 }
 
 .h6-desc {
-    display: block;
-    margin: auto;
-    margin-left: 5px;
+    margin: -14px 0 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: -110px;
+    vertical-align: 35px;
 }
 
 .img-profilo {
@@ -21,8 +23,17 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "微軟正
     display: inline-block;
 }
 
+.img-cont {
+    border-style: solid;
+    display: inline-block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: -28px;
+    margin-top: -5px;
+}
 .aHeader {
-    background-color: #ffb000;
+    background-color: #ff000d;
     padding-left: 40px;
     max-height: 100px;
 }
@@ -90,7 +101,7 @@ li.li-info {}
 }
 
 .c-head {
-    background-color: #807c00;
+    background-color: #003480;
     max-height: 30px;
     margin-left: 20px;
 }
