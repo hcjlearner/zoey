@@ -21,6 +21,7 @@ body{background-color: white;margin:25px auto; width:1100px;font:16px "å¾®è�
     margin-top: -14px;
     border-radius: 60%;
     display: inline-block;
+    background-size: contain;
 }
 
 .img-cont {
@@ -130,7 +131,7 @@ li.li-info {}
     line-height: 20px;
 }
 
-#codeconSkills {
+#codeconSkills 
     font-size: 16px;
 }
 
@@ -138,3 +139,74 @@ li.li-info {}
     background-color: black;
     padding-top: 60px;
 }
+
+.aExtender {
+    margin: 5px 0 0 0;
+}
+
+.ul-profile-show { 
+    width: 990px; height: 495px; 
+    margin: 0 auto; 
+    list-style-type: none; 
+    position: relative;
+}
+
+.ul-profile-show:hover > .li-profile-show { 
+    opacity: 0.5; 
+    filter: alpha(opacity=50);
+}
+
+.ul-profile-show:hover > .li-profile-show:hover { 
+    opacity: 1; 
+    filter: alpha(opacity=100);
+}
+
+.li-profile-show { 
+    background: no-repeat; 
+    position: absolute; 
+    transition: all 0.3s linear;
+}
+
+.li-profile-show img { 
+    display: none;
+}
+
+.li-profile-show01 { 
+    width: 660px; 
+    height: 330px; 
+    background-image: url(http://images2.fanpop.com/images/photos/5600000/New-Super-Mario-Brothers-super-mario-bros-5601838-1024-768.jpg); 
+    top: 0; left: 0;
+    background-size: auto;
+}
+
+.li-profile-show02 { 
+    width: 330px; 
+    height: 165px; 
+    background-image: url(http://www.rpgfan.com/pics/ml2/art-001.jpg); 
+    left: 0; bottom: 0;
+    background-size: 330px 165px;
+}
+
+.li-profile-show03 { 
+    width: 330px; 
+    height: 165px; 
+    background-image: url(http://luigi2.e-monsite.com/medias/album/images/11356634mario-kart-wii-jpg.jpg); 
+    left: 330px;bottom: 0;
+    background-size: 330px 165px;
+}
+
+.li-profile-show04 { 
+    width: 330px; 
+    height: 165px; 
+    background-image: url(http://www.kidyparty.ch/media/catalog/category/Mario_1.jpg); 
+    top: 0; right: 0;
+    background-size: 330px 165px;
+}
+
+.li-profile-show05 { 
+    width: 330px; 
+    height: 330px; 
+    background-image: url(http://www.nintendo.tw/nsmb2/twoplayers/img/img_two_marioluigi.png);
+     bottom: 0; right: 0;
+     background-size: 330px 330px;
+ }
